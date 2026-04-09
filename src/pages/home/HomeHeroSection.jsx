@@ -67,7 +67,7 @@ const HomeHeroSection = () => {
         {[400, 320, 240, 160].map((size, i) => (
           <div
             key={i}
-            className="absolute rounded-full border border-[#f5c04f] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
+            className="absolute rounded-full border border-[#f5c04f]/40 md:border-[#f5c04f] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
             style={{
               width: size,
               height: size,

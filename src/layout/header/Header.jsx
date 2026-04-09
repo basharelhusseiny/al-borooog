@@ -23,6 +23,17 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "unset";
+    }
+    return () => {
+      document.body.style.overflow = "unset";
+    };
+  }, [isOpen]);
+
   const navClasses = scrolled
     ? "bg-[#07062e] shadow-2xl py-4 transition-all duration-500"
     : "bg-transparent py-8 transition-all duration-500";
@@ -30,7 +41,7 @@ const Header = () => {
   const tabs = t("nav.tabs");
 
   return (
-    <nav className={`fixed top-0 z-50 w-full ${navClasses}`}>
+    <nav className={`fixed top-0 inset-x-0 z-50 overflow-x-hidden ${navClasses}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}

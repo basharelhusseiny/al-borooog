@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-/* Global Fonts based on Language Direction */
-body, [dir="ltr"] {
+html,
+body {
+  overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
 }
 
