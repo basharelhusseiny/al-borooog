@@ -112,6 +112,8 @@ export const TRANSLATIONS = {
       corpTag: "Industrial B2B Corporate Hubs",
       corpDesc:
         "For heavy industries operating at scale, relying on public retail infrastructure is logistically unfeasible. AL Burouj designs, engineers, and constructs dedicated, high-capacity fuel bulk depots directly within the operational premises of our corporate clients, including mechanized agriculture, remote mining, and heavy manufacturing.",
+      corpDesc2:
+        "Whether a commercial client requires a compact 10,000-liter skid tank or a massive 500,000-liter multi-tank bulk plant, our engineers provide the exact bespoke solution tailored to heavy industry needs.",
       privTag: "Private & VIP Estate Solutions",
       privDesc:
         "AL Burouj acknowledges the highly specific requirements of high-net-worth individuals, large private estates, and remote residential compounds that necessitate total, independent energy security with aesthetic discretion and maximum safety compliance.",
@@ -269,6 +271,8 @@ export const TRANSLATIONS = {
       corpTag: "المراكز الصناعية للشركات (B2B)",
       corpDesc:
         "بالنسبة للصناعات الثقيلة، فإن الاعتماد على البنية التحتية العامة غير مجدٍ. تقوم شركة البروج بتصميم وبناء مستودعات وقود ضخمة مخصصة مباشرة داخل المباني التشغيلية لعملائنا، بما في ذلك الزراعة الآلية والتعدين.",
+      corpDesc2:
+        "سواء كان العميل التجاري يتطلب خزانًا مدمجًا بسعة 10000 لتر أو محطة وقود كبيرة متعددة الخزانات بسعة 500000 لتر، فإن مهندسينا يقدمون الحل الأمثل المصمم خصيصًا لتلبية احتياجات الصناعة الثقيلة.",
       privTag: "الحلول الخاصة وعقارات كبار الشخصيات",
       privDesc:
         "تقر شركة البروج بالمتطلبات المحددة للأفراد ذوي الملاءة المالية العالية والمجمعات السكنية النائية التي تتطلب أمناً مستقلاً للطاقة مع السرية الجمالية والامتثال الأقصى للسلامة.",
@@ -316,7 +320,7 @@ export const TRANSLATIONS = {
 
 // --- THEME CONFIGURATION ---
 export const THEME = {
-  primary: "#07062e",   // Deep Corporate Navy
+  primary: "#07062e", // Deep Corporate Navy
   secondary: "#f5c04f", // Branding Gold
-  accent: "#ea3326",    // Safety/Alert Red
+  accent: "#ea3326", // Safety/Alert Red
 };

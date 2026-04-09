@@ -1,4 +1,3 @@
-import React from "react";
 import { Factory } from "lucide-react";
 import FadeIn from "../../components/FadeIn";
 import { useTranslation } from "../../context/TranslationContext";
@@ -28,9 +27,7 @@ const EngCorporateSection = () => {
         <div className="bg-[#07062e] text-white p-10 shadow-xl">
           <Factory size={40} className="text-[#f5c04f] mb-6" />
           <p className="text-lg font-light leading-relaxed">
-            Whether a commercial client requires a compact 10,000-liter skid
-            tank or a massive 500,000-liter multi-tank bulk plant, our engineers
-            provide the exact bespoke solution tailored to heavy industry needs.
+            {t("eng.corpDesc2")}
           </p>
         </div>
       </FadeIn>

@@ -10,12 +10,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
           <div className="lg:col-span-1">
             <div className="flex flex-col items-start mb-6">
-              <div className="relative flex items-center gap-2 mb-2">
-                <Flame className="text-[#ea3326]" size={32} fill="#ea3326" />
-                <span className="text-white font-extrabold text-3xl tracking-tighter block">
-                  AL BUR<span className="text-[#f5c04f]">OUJ</span>
-                </span>
-              </div>
+              <img src="/1.png" alt="AL BURUJ" className="h-32 w-auto mb-2" />
               <span className="text-white text-xs tracking-[0.2em] font-bold uppercase opacity-80">
                 {t("nav.subtitle")}
               </span>
