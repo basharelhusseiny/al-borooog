@@ -44,7 +44,7 @@ const Header = () => {
           {/* Desktop Links */}
           <div className="hidden lg:block">
             <div
-              className={`flex items-center space-x-6 ${isAr ? "space-x-reverse" : ""}`}
+              className={`flex items-center ${isAr ? "gap-x-8" : "gap-x-6"}`}
             >
               {NAV_LINKS.map(({ path, label_key }) => (
                 <NavLink
@@ -52,7 +52,9 @@ const Header = () => {
                   to={path}
                   end={path === "/"}
                   className={({ isActive }) =>
-                    `text-sm font-bold tracking-wide transition-all uppercase border-b-2 py-1 ${
+                    `font-bold transition-all border-b-2 py-1 ${
+                      isAr ? "text-[15px]" : "text-sm tracking-wide uppercase"
+                    } ${
                       isActive
                         ? "border-[#f5c04f] text-[#f5c04f]"
                         : "border-transparent text-white hover:text-[#f5c04f]"
@@ -69,11 +71,15 @@ const Header = () => {
           <div className="hidden lg:flex items-center gap-6">
             <button
               onClick={toggleLang}
-              className="flex items-center gap-2 text-white hover:text-[#f5c04f] transition-colors font-bold uppercase text-sm tracking-widest"
+              className={`flex items-center gap-2 text-white hover:text-[#f5c04f] transition-colors font-bold ${
+                isAr ? "text-base" : "uppercase text-sm tracking-widest"
+              }`}
             >
               <Globe size={18} /> {lang === "en" ? "العربية" : "EN"}
             </button>
-            <button className="bg-[#f5c04f] text-[#07062e] px-8 py-3 text-sm font-extrabold uppercase tracking-wider hover:bg-white transition-colors shadow-lg">
+            <button className={`bg-[#f5c04f] text-[#07062e] px-8 py-3 font-extrabold transition-colors shadow-lg ${
+              isAr ? "text-base" : "text-sm uppercase tracking-wider hover:bg-white"
+            } hover:bg-white`}>
               {t("nav.contact")}
             </button>
           </div>
@@ -105,7 +111,9 @@ const Header = () => {
               end={path === "/"}
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                `block w-full text-start px-4 py-4 text-lg font-bold uppercase tracking-wider border-l-4 ${
+                `block w-full text-start px-4 py-4 text-lg font-bold border-s-4 ${
+                  isAr ? "" : "uppercase tracking-wider"
+                } ${
                   isActive
                     ? "border-[#f5c04f] text-[#f5c04f] bg-white/5"
                     : "border-transparent text-white hover:bg-white/5"
