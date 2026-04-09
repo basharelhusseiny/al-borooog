@@ -11,7 +11,7 @@ const EngCorporateSection = () => {
       <FadeIn direction="right" className="order-2 lg:order-1">
         <div className="h-[600px] shadow-2xl overflow-hidden bg-[#07062e]">
           <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356f58?q=80&w=1500&auto=format&fit=crop"
+            src="/img-6.webp"
             className="w-full h-full object-cover opacity-90"
             alt="Industrial Depot"
           />

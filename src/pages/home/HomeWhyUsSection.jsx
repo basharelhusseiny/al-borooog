@@ -138,7 +138,7 @@ const HomeWhyUsSection = () => {
         {/* ── Stats Bar ── */}
         <FadeIn>
           <div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-24 border border-slate-200 divide-x divide-slate-200"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-14 border border-slate-200 divide-x divide-slate-200"
             style={{ direction: "ltr" }} // keep numbers LTR
           >
             {STATS.map((s, i) => (

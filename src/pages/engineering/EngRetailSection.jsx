@@ -37,7 +37,7 @@ const EngRetailSection = () => {
       <FadeIn direction="left">
         <div className="h-[600px] shadow-2xl overflow-hidden bg-[#07062e]">
           <img
-            src="https://images.unsplash.com/photo-1542228601-3e4775d714b1?q=80&w=1500&auto=format&fit=crop"
+            src="/img-5.jpg"
             className="w-full h-full object-cover opacity-90"
             alt="Retail Station"
           />

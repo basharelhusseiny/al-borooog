@@ -14,7 +14,7 @@ const EngineeringPage = () => {
         title1={t("eng.title1")}
         title2={t("eng.title2")}
         subtitle={t("eng.subtitle")}
-        align="left"
+        align="center"
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24 space-y-32">

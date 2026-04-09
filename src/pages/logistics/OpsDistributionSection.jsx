@@ -11,7 +11,7 @@ const OpsDistributionSection = () => {
       <FadeIn direction="right">
         <div className="h-[600px] w-full shadow-2xl relative">
           <img
-            src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=1500&auto=format&fit=crop"
+            src="/img-8.avif"
             className="absolute inset-0 w-full h-full object-cover"
             alt="Fuel Distribution"
           />

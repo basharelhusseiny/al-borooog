@@ -15,7 +15,7 @@ const CorporateProfilePage = () => {
         title1={t("about.title")}
         title2={t("about.titleHighlight")}
         subtitle={t("about.subtitle")}
-        align="left"
+        align="center"
       />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-24">

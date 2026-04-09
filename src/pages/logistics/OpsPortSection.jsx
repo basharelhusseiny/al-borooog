@@ -32,7 +32,7 @@ const OpsPortSection = () => {
       <FadeIn direction="left" className="order-1 lg:order-2">
         <div className="h-[700px] w-full shadow-2xl relative">
           <img
-            src="https://images.unsplash.com/photo-1621504450181-5d356f61d307?q=80&w=1500&auto=format&fit=crop"
+            src="/img-7.webp"
             className="absolute inset-0 w-full h-full object-cover"
             alt="Port Sudan Terminal"
           />
