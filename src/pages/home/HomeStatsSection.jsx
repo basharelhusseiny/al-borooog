@@ -10,7 +10,7 @@ const HomeStatsSection = () => {
     <div className="bg-[#07062e] py-20 border-t-4 border-[#ea3326] relative overflow-hidden">
       <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2000&auto=format&fit=crop')] bg-cover bg-center"></div>
       <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {t("home.stats").map((stat, idx) => (
             <FadeIn key={idx} delay={idx * 100}>
               <div className="text-center">

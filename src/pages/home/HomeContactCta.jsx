@@ -49,14 +49,14 @@ const HomeContactCta = () => {
             <div className="flex flex-col sm:flex-row gap-6">
               <button 
                 onClick={() => navigate("/operations")}
-                className="group relative px-10 py-5 bg-[#f5c04f] text-[#07062e] font-black text-lg uppercase tracking-widest flex items-center gap-3 hover:bg-white transition-all duration-300 shadow-2xl"
+                className="group relative px-10 py-5 bg-[#f5c04f] text-[#07062e] font-black text-lg uppercase tracking-widest text-nowrap flex items-center gap-3 hover:bg-white transition-all duration-300 shadow-2xl"
               >
                 {isAr ? "ابدأ الآن" : "Get Started"}
                 <ArrowRight size={22} className={`transition-transform duration-300 ${isAr ? "rotate-180 group-hover:-translate-x-1" : "group-hover:translate-x-1"}`} />
               </button>
               
               <button 
-                className="px-10 py-5 border-2 border-white/20 text-white font-bold text-lg uppercase tracking-widest hover:bg-white/10 transition-all duration-300 flex items-center gap-3"
+                className="px-10 py-5 text-nowrap border-2 border-white/20 text-white font-bold text-lg uppercase tracking-widest hover:bg-white/10 transition-all duration-300 flex items-center gap-3"
               >
                 {t("nav.contact")}
                 <ExternalLink size={20} />

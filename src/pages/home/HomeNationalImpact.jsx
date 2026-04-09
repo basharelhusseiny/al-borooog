@@ -88,7 +88,7 @@ const HomeNationalImpact = () => {
               {/* Image Frame with decorative border */}
               <div className="border-[15px] border-white shadow-2xl relative z-10">
                 <img 
-                  src="https://images.unsplash.com/photo-1574689049868-e94ed5301745?q=80&w=1500&auto=format&fit=crop" 
+                  src="/img-1.jpg" 
                   alt="Infrastructure" 
                   className="w-full h-[600px] object-cover"
                 />

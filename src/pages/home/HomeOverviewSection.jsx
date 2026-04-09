@@ -26,7 +26,7 @@ const HomeOverviewSection = () => {
           <FadeIn direction="left">
             <div className="relative h-[500px] w-full shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1500&auto=format&fit=crop"
+                src="/img-4.jpg"
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="Oil Infrastructure"
               />
@@ -45,7 +45,7 @@ const HomeOverviewSection = () => {
           <FadeIn direction="right" className="order-2 lg:order-1">
             <div className="relative h-[600px] w-full shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1605336069925-96db15ec3c8d?q=80&w=1500&auto=format&fit=crop"
+                src="/img-3.jpg"
                 className="absolute inset-0 w-full h-full object-cover"
                 alt="Pipeline Infrastructure"
               />

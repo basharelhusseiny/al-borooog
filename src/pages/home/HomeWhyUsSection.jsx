@@ -84,7 +84,7 @@ const HomeWhyUsSection = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-16">
         {/* ── Top: Section label + heading + CTA ── */}
         <div
-          className={`flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10 mb-24 ${isAr ? "lg:flex-row-reverse text-right" : ""}`}
+          className={`flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-24 ${isAr ? "lg:flex-row-reverse text-right" : ""}`}
         >
           <FadeIn direction={isAr ? "left" : "right"}>
             <div>
@@ -138,7 +138,7 @@ const HomeWhyUsSection = () => {
         {/* ── Stats Bar ── */}
         <FadeIn>
           <div
-            className="grid grid-cols-2 md:grid-cols-4 mb-24 border border-slate-200 divide-x divide-slate-200"
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mb-24 border border-slate-200 divide-x divide-slate-200"
             style={{ direction: "ltr" }} // keep numbers LTR
           >
             {STATS.map((s, i) => (
