@@ -38,22 +38,14 @@ const Header = () => {
             className="flex-shrink-0 flex items-center cursor-pointer group"
             onClick={() => navigate("/")}
           >
-            <div className="flex flex-col items-center">
-              <div className="relative flex items-center gap-2">
-                <Flame className="text-[#ea3326]" size={32} fill="#ea3326" />
-                <span className="font-extrabold text-3xl tracking-tighter block text-white">
-                  AL BUR<span className="text-[#f5c04f]">OUJ</span>
-                </span>
-              </div>
-              <span className="text-[10px] tracking-[0.2em] font-bold uppercase mt-1 text-white opacity-80">
-                {t("nav.subtitle")}
-              </span>
-            </div>
+            <img src="/1.png" alt="AL BURUJ" className="h-28 w-auto" />
           </div>
 
           {/* Desktop Links */}
           <div className="hidden lg:block">
-            <div className={`flex items-center space-x-6 ${isAr ? "space-x-reverse" : ""}`}>
+            <div
+              className={`flex items-center space-x-6 ${isAr ? "space-x-reverse" : ""}`}
+            >
               {NAV_LINKS.map(({ path, label_key }) => (
                 <NavLink
                   key={path}
@@ -94,10 +86,7 @@ const Header = () => {
             >
               {lang === "en" ? "AR" : "EN"}
             </button>
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="text-white"
-            >
+            <button onClick={() => setIsOpen(!isOpen)} className="text-white">
               {isOpen ? <X size={32} /> : <Menu size={32} />}
             </button>
           </div>

@@ -95,22 +95,8 @@ const HomeHeroSection = () => {
       />
 
       {/* ── Main Content ── */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 pt-24 pb-32">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 pt-36 pb-32">
         <div className={`max-w-3xl ${isAr ? "ml-auto text-right" : "mr-auto"}`}>
-          {/* Badge */}
-          <div
-            className={`inline-flex items-center gap-3 mb-5 px-5 py-2.5 rounded-full border border-[#f5c04f]/30 bg-[#f5c04f]/10 backdrop-blur-sm`}
-            style={{ animation: "fadeSlideDown 0.8s ease forwards" }}
-          >
-            <div
-              className="w-2 h-2 rounded-full bg-[#ea3326]"
-              style={{ animation: "blink 1.5s ease-in-out infinite" }}
-            />
-            <span className="text-[#f5c04f] font-bold tracking-[0.25em] uppercase text-xs">
-              {t("hero.powering")}
-            </span>
-          </div>
-
           {/* H1 */}
           <h1
             className="font-black text-white leading-[1.0] tracking-tight mb-8"
