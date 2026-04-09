@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/* Global Fonts based on Language Direction */
+body, [dir="ltr"] {
+  font-family: 'Roboto', sans-serif;
+}
+
+[dir="rtl"] {
+  font-family: 'Cairo', sans-serif;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #9cc8f4; /* slate-50 */
+}
+::-webkit-scrollbar-thumb {
+  background: #2563eb; /* slate-300 */
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2c406d; /* slate-400 */
+}
