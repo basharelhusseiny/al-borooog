@@ -16,21 +16,21 @@ export const TRANSLATIONS = {
       powering: "Powering National Progress",
       title1: "INTEGRATED ENERGY",
       title2: "SOLUTIONS",
-      desc: "AL Burouj is a cornerstone of Sudan's downstream petroleum and gas sector. We deliver comprehensive, end-to-end energy solutions—from international importation at Port Sudan to nationwide distribution.",
+      desc: "AL Boroog is a cornerstone of Sudan's downstream petroleum and gas sector. We deliver comprehensive, end-to-end energy solutions—from international importation at Port Sudan to nationwide distribution.",
       btn1: "Explore Our Operations",
       btn2: "Corporate Profile",
     },
     home: {
       execSum: "Executive Summary",
-      introTitle: "Introduction to AL Burouj",
+      introTitle: "Introduction to AL Boroog",
       introText:
-        "AL Burouj stands as a formidable pillar in Sudan's downstream oil and gas sector. Headquartered with strategic precision in Port Sudan—the nation's primary economic gateway on the Red Sea—we are a fully integrated energy company dedicated to powering the daily lives of citizens and the operational engines of heavy industries. We specialize in the large-scale importation, secure storage, nationwide distribution, and retail supply of premium petroleum products and liquid gas.",
+        "AL Boroog stands as a formidable pillar in Sudan's downstream oil and gas sector. Headquartered with strategic precision in Port Sudan—the nation's primary economic gateway on the Red Sea—we are a fully integrated energy company dedicated to powering the daily lives of citizens and the operational engines of heavy industries. We specialize in the large-scale importation, secure storage, nationwide distribution, and retail supply of premium petroleum products and liquid gas.",
       moreTitle: "Infrastructure & Asset Lifecycle",
       moreText:
-        "What sets AL Burouj apart in a crowded marketplace is our capacity as comprehensive energy infrastructure developers. We do not merely move fuel from the port to the pump; we build the pump. Our dedicated engineering and construction divisions manage the entire asset lifecycle, commissioning state-of-the-art fueling stations ranging from high-capacity commercial retail stations to custom-built industrial depots.",
+        "What sets AL Boroog apart in a crowded marketplace is our capacity as comprehensive energy infrastructure developers. We do not merely move fuel from the port to the pump; we build the pump. Our dedicated engineering and construction divisions manage the entire asset lifecycle, commissioning state-of-the-art fueling stations ranging from high-capacity commercial retail stations to custom-built industrial depots.",
       stratTitle: "Strategic Advantage & Governance",
       stratText:
-        "By controlling the entire supply chain—from the moment a vessel discharges its cargo at Port Sudan to the moment a nozzle dispenses fuel in a remote state—AL Burouj guarantees uninterrupted supply, uncompromising quality, and unparalleled safety.",
+        "By controlling the entire supply chain—from the moment a vessel discharges its cargo at Port Sudan to the moment a nozzle dispenses fuel in a remote state—AL Boroog guarantees uninterrupted supply, uncompromising quality, and unparalleled safety.",
       stats: [
         { label: "Annual Import Volume (MT)", value: 850000 },
         { label: "Active Distribution Fleet", value: 320 },
@@ -75,7 +75,7 @@ export const TRANSLATIONS = {
       impactTitle1: "Driving National",
       impactTitle2: "Economic Growth",
       impactText:
-        "Energy is the fundamental prerequisite for industrial and agricultural development. By stabilizing the supply of petroleum and gas, AL Burouj directly catalyzes the socio-economic advancement of Sudan. Delivering diesel to agricultural heartlands secures the national food supply, while fueling mining and manufacturing sectors facilitates foreign investment.",
+        "Energy is the fundamental prerequisite for industrial and agricultural development. By stabilizing the supply of petroleum and gas, AL Boroog directly catalyzes the socio-economic advancement of Sudan. Delivering diesel to agricultural heartlands secures the national food supply, while fueling mining and manufacturing sectors facilitates foreign investment.",
     },
     ops: {
       tag: "Supply Chain & Logistics",
@@ -88,12 +88,12 @@ export const TRANSLATIONS = {
         "As the nation's primary inlet for international trade, our established, heavy-duty presence in Port Sudan affords direct, hands-on oversight of the importation process. Bypassing third-party intermediaries allows for rigorous cost-control, streamlined customs clearance, and uncompromising quality assurance right from the point of maritime entry.",
       globalTitle: "Global Procurement & Storage",
       globalText1:
-        "AL Burouj maintains strategic partnerships with reputable international oil refineries and tier-one global commodities traders. We import premium-grade automotive diesel, motor gasoline, aviation turbine fuels, and Liquefied Petroleum Gas (LPG).",
+        "AL Boroog maintains strategic partnerships with reputable international oil refineries and tier-one global commodities traders. We import premium-grade automotive diesel, motor gasoline, aviation turbine fuels, and Liquefied Petroleum Gas (LPG).",
       globalText2:
         "Upon docking at Port Sudan, our imported hydrocarbons are discharged into highly secure, modern tank farms. These specialized facilities feature automated volume-tracking telemetry, strict temperature-control, and heavy-duty fire-suppression networks.",
       logTitle: "Nationwide Distribution Network",
       logText:
-        "AL Burouj manages one of the most sophisticated hazardous materials logistics networks in the region. Our distribution architecture is specifically engineered to overcome vast geographical distances and rugged topographies.",
+        "AL Boroog manages one of the most sophisticated hazardous materials logistics networks in the region. Our distribution architecture is specifically engineered to overcome vast geographical distances and rugged topographies.",
       fleetTitle: "Heavy-Duty Specialized Fleet",
       fleetText:
         "We command a massive, continually modernized fleet of heavy-duty articulated road tankers and high-pressure carriers. Every asset is subjected to a rigid preventative maintenance schedule.",
@@ -108,22 +108,22 @@ export const TRANSLATIONS = {
         "Comprehensive turnkey project management. We build the resilient infrastructure that powers commercial enterprise and public mobility.",
       pubTag: "Retail & Public Service Stations",
       pubDesc:
-        "AL Burouj is fundamentally modernizing the landscape of public fueling in Sudan. Our specialized Engineering & Construction division provides comprehensive, end-to-end turnkey development of modern retail service stations. We manage every phase: topographical land assessment, architectural design, strict environmental licensing, civil construction, and final electromechanical commissioning.",
+        "AL Boroog is fundamentally modernizing the landscape of public fueling in Sudan. Our specialized Engineering & Construction division provides comprehensive, end-to-end turnkey development of modern retail service stations. We manage every phase: topographical land assessment, architectural design, strict environmental licensing, civil construction, and final electromechanical commissioning.",
       corpTag: "Industrial B2B Corporate Hubs",
       corpDesc:
-        "For heavy industries operating at scale, relying on public retail infrastructure is logistically unfeasible. AL Burouj designs, engineers, and constructs dedicated, high-capacity fuel bulk depots directly within the operational premises of our corporate clients, including mechanized agriculture, remote mining, and heavy manufacturing.",
+        "For heavy industries operating at scale, relying on public retail infrastructure is logistically unfeasible. AL Boroog designs, engineers, and constructs dedicated, high-capacity fuel bulk depots directly within the operational premises of our corporate clients, including mechanized agriculture, remote mining, and heavy manufacturing.",
       corpDesc2:
         "Whether a commercial client requires a compact 10,000-liter skid tank or a massive 500,000-liter multi-tank bulk plant, our engineers provide the exact bespoke solution tailored to heavy industry needs.",
       privTag: "Private & VIP Estate Solutions",
       privDesc:
-        "AL Burouj acknowledges the highly specific requirements of high-net-worth individuals, large private estates, and remote residential compounds that necessitate total, independent energy security with aesthetic discretion and maximum safety compliance.",
+        "AL Boroog acknowledges the highly specific requirements of high-net-worth individuals, large private estates, and remote residential compounds that necessitate total, independent energy security with aesthetic discretion and maximum safety compliance.",
     },
     hse: {
       title1: "HSE &",
       title2: "Sustainability",
       subtitle:
         "Uncompromising adherence to international standards. Protecting our workforce, our communities, and our environment.",
-      desc: "Corporate responsibility at AL Burouj dictates that no operational or financial goal will ever supersede the safety of our personnel, the public, or the environment. Our comprehensive, rigorously audited Health, Safety, and Environment (HSE) management system governs every single procedure.",
+      desc: "Corporate responsibility at AL Boroog dictates that no operational or financial goal will ever supersede the safety of our personnel, the public, or the environment. Our comprehensive, rigorously audited Health, Safety, and Environment (HSE) management system governs every single procedure.",
       items: [
         {
           title: "Stringent Quality Assurance",
@@ -131,7 +131,7 @@ export const TRANSLATIONS = {
         },
         {
           title: "Advanced Hazard & Fire Mitigation",
-          desc: "Every AL Burouj facility is heavily fortified with industry-leading automated foam/water fire suppression systems, fail-safe emergency shut-off valves, and specialized anti-static grounding equipment to neutralize any risk of ignition.",
+          desc: "Every AL Boroog facility is heavily fortified with industry-leading automated foam/water fire suppression systems, fail-safe emergency shut-off valves, and specialized anti-static grounding equipment to neutralize any risk of ignition.",
         },
         {
           title: "Environmental Stewardship",
@@ -139,7 +139,7 @@ export const TRANSLATIONS = {
         },
         {
           title: "Workforce Competency & Training",
-          desc: "AL Burouj mandates continuous, rolling training programs for our entire workforce, encompassing international certifications in hazardous materials handling, defensive driving, and comprehensive emergency crisis management.",
+          desc: "AL Boroog mandates continuous, rolling training programs for our entire workforce, encompassing international certifications in hazardous materials handling, defensive driving, and comprehensive emergency crisis management.",
         },
       ],
     },
@@ -153,7 +153,7 @@ export const TRANSLATIONS = {
       phone1: "(General Switchboard)",
       phone2: "(B2B Corporate Sales)",
       connect: "Connect",
-      copy: "AL Burouj Multi-Activities. All rights reserved.",
+      copy: "AL Boroog Multi-Activities. All rights reserved.",
       eng: "Engineered for National Excellence.",
     },
   },
