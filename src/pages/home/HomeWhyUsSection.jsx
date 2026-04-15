@@ -15,7 +15,7 @@ const PILLARS_EN = [
   {
     icon: BarChart3,
     title: "End-to-End Supply Control",
-    desc: "Unlike intermediaries, AL Burouj owns every stage — import, storage, transport, and station construction. This vertical integration eliminates dependency, reduces cost, and guarantees product integrity from manifest to pump.",
+    desc: "Unlike intermediaries, AL Boroog owns every stage — import, storage, transport, and station construction. This vertical integration eliminates dependency, reduces cost, and guarantees product integrity from manifest to pump.",
   },
   {
     icon: Route,

@@ -12,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
           <div className="lg:col-span-1">
             <div className="flex flex-col items-start mb-6">
-              <img src="/1.png" alt="AL BURUJ" className="h-32 w-auto mb-2" />
+              <img src="/1.png" alt="AL Boroog" className="h-32 w-auto mb-2" />
               <span className="text-white text-xs tracking-[0.2em] font-bold uppercase opacity-80">
                 {t("nav.subtitle")}
               </span>
@@ -31,13 +31,6 @@ const Footer = () => {
                 <MapPin size={20} className="text-[#ea3326] shrink-0 mt-0.5" />{" "}
                 <span>{t("footer.loc1")}</span>
               </li>
-              <li className="flex gap-4 items-start">
-                <Building2
-                  size={20}
-                  className="text-[#ea3326] shrink-0 mt-0.5"
-                />{" "}
-                <span>{t("footer.loc2")}</span>
-              </li>
             </ul>
           </div>
 
@@ -51,19 +44,9 @@ const Footer = () => {
                   size={20}
                   className="text-slate-400 group-hover:text-white transition-colors"
                 />{" "}
-                <span dir="ltr">+249 123 456 789</span>{" "}
+                <span dir="ltr">+249 120 010 111</span>{" "}
                 <span className="text-xs text-slate-500">
                   {t("footer.phone1")}
-                </span>
-              </li>
-              <li className="flex gap-4 items-center group cursor-pointer hover:text-white transition-colors">
-                <Phone
-                  size={20}
-                  className="text-slate-400 group-hover:text-white transition-colors"
-                />{" "}
-                <span dir="ltr">+249 987 654 321</span>{" "}
-                <span className="text-xs text-slate-500">
-                  {t("footer.phone2")}
                 </span>
               </li>
               <li className="flex gap-4 items-center group cursor-pointer hover:text-white transition-colors">
@@ -71,7 +54,7 @@ const Footer = () => {
                   size={20}
                   className="text-slate-400 group-hover:text-white transition-colors"
                 />{" "}
-                info@alburouj.com.sd
+                info@alboroog-sd.com
               </li>
             </ul>
           </div>

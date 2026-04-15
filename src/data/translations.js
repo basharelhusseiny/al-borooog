@@ -146,12 +146,10 @@ export const TRANSLATIONS = {
     footer: {
       tagline:
         "Delivering integrated, large-scale petroleum and gas solutions across Sudan with uncompromising quality and engineering excellence.",
-      hq: "Corporate Headquarters",
-      loc1: "Port Sudan, Red Sea State, Sudan",
-      loc2: "Regional Operations Center: Khartoum",
-      contact: "Corporate Contact",
-      phone1: "(General Switchboard)",
-      phone2: "(B2B Corporate Sales)",
+      hq: "Office Address",
+      loc1: "Office No. 3, Transit Depot, Portsudan Sq 1 - Sudan",
+      contact: "Contact",
+      phone1: "(Office)",
       legal: "Legal",
       privacy: "Privacy Policy",
       terms: "Terms of Service",
@@ -307,12 +305,10 @@ export const TRANSLATIONS = {
     footer: {
       tagline:
         "شركة البروج للأنشطة المتعددة. تقديم حلول متكاملة للبترول والغاز في جميع أنحاء السودان بجودة وتميز هندسي.",
-      hq: "المقر الرئيسي للشركة",
-      loc1: "بورتسودان، ولاية البحر الأحمر، السودان",
-      loc2: "مركز العمليات الإقليمي: الخرطوم",
-      contact: "الاتصال المؤسسي",
-      phone1: "(السنترال العام)",
-      phone2: "(مبيعات الشركات)",
+      hq: "عنوان المكتب",
+      loc1: "مكتب رقم 3، مستودع الترانزيت، بورتسودان مربع 1 - السودان",
+      contact: "اتصل بنا",
+      phone1: "(المكتب)",
       legal: "قانوني",
       privacy: "سياسة الخصوصية",
       terms: "شروط الخدمة",

@@ -13,7 +13,7 @@ const HomePage = () => {
       {/* 1. Hero — full screen cinematic */}
       <HomeHeroSection />
 
-      {/* 2. Why AL Burouj — stats + 3 pillars */}
+      {/* 2. Why AL Boroog — stats + 3 pillars */}
       <HomeWhyUsSection />
 
       {/* 3. National Impact — split layout with image highlight */}

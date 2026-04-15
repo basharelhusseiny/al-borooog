@@ -33,13 +33,13 @@ const HomeContactCta = () => {
                   <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
                     <Phone size={20} className="text-[#f5c04f]" />
                   </div>
-                  <span>+249 123 456 789</span>
+                  <span>+249 120 010 111</span>
                 </div>
                 <div className="flex items-center gap-3 text-white font-bold tracking-wide">
                   <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center">
                     <Mail size={20} className="text-[#f5c04f]" />
                   </div>
-                  <span>info@alburouj.com.sd</span>
+                  <span>info@alboroog-sd.com</span>
                 </div>
               </div>
             </div>

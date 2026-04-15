@@ -49,7 +49,7 @@ const Header = () => {
             className="flex-shrink-0 flex items-center cursor-pointer group"
             onClick={() => navigate("/")}
           >
-            <img src="/1.png" alt="AL BURUJ" className="h-28 w-auto" />
+            <img src="/1.png" alt="AL Boroog" className="h-28 w-auto" />
           </div>
 
           {/* Desktop Links */}

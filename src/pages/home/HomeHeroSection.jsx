@@ -28,7 +28,7 @@ const HomeHeroSection = () => {
       >
         <img
           src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?q=80&w=2800&auto=format&fit=crop"
-          alt="AL Burouj Energy Infrastructure"
+          alt="AL Boroog Energy Infrastructure"
           className="w-full h-full object-cover scale-110"
           style={{ opacity: 0.8 }}
         />
