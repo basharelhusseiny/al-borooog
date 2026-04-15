@@ -32,7 +32,7 @@ export const TRANSLATIONS = {
       stratText:
         "By controlling the entire supply chain—from the moment a vessel discharges its cargo at Port Sudan to the moment a nozzle dispenses fuel in a remote state—AL Boroog guarantees uninterrupted supply, uncompromising quality, and unparalleled safety.",
       stats: [
-        { label: "Annual Import Volume (MT)", value: 850000 },
+        { label: "Distribution", value: 2500000 },
         { label: "Active Distribution Fleet", value: 320 },
         { label: "National States Covered", value: 18 },
         { label: "B2B Corporate Partners", value: 150 },
@@ -152,7 +152,9 @@ export const TRANSLATIONS = {
       contact: "Corporate Contact",
       phone1: "(General Switchboard)",
       phone2: "(B2B Corporate Sales)",
-      connect: "Connect",
+      legal: "Legal",
+      privacy: "Privacy Policy",
+      terms: "Terms of Service",
       copy: "AL Boroog Multi-Activities. All rights reserved.",
       eng: "Engineered for National Excellence.",
     },
@@ -191,7 +193,7 @@ export const TRANSLATIONS = {
       stratText:
         "من خلال السيطرة على سلسلة التوريد بأكملها - من لحظة تفريغ السفينة لحمولتها في بورتسودان إلى لحظة توزيع الوقود - تضمن البروج الإمداد المستمر، والجودة التي لا تقبل المساومة، والسلامة التي لا مثيل لها.",
       stats: [
-        { label: "حجم الاستيراد السنوي (طن)", value: 850000 },
+        { label: "التوزيع", value: 2500000 },
         { label: "أسطول التوزيع النشط", value: 320 },
         { label: "الولايات المغطاة", value: 18 },
         { label: "شركاء الشركات", value: 150 },
@@ -311,7 +313,9 @@ export const TRANSLATIONS = {
       contact: "الاتصال المؤسسي",
       phone1: "(السنترال العام)",
       phone2: "(مبيعات الشركات)",
-      connect: "تواصل معنا",
+      legal: "قانوني",
+      privacy: "سياسة الخصوصية",
+      terms: "شروط الخدمة",
       copy: "شركة البروج. جميع الحقوق محفوظة.",
       eng: "هندسة لامتياز وطني.",
     },

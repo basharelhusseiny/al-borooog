@@ -9,6 +9,8 @@ import CorporateProfilePage from "./pages/corporate-profile/index";
 import LogisticsPage from "./pages/logistics/index";
 import EngineeringPage from "./pages/engineering/index";
 import SustainabilityPage from "./pages/sustainability/index";
+import Privacy from "./pages/legal/Privacy";
+import TermsOfService from "./pages/legal/TermsOfService";
 
 export default function App() {
   return (
@@ -21,6 +23,8 @@ export default function App() {
             <Route path="/operations" element={<LogisticsPage />} />
             <Route path="/engineering" element={<EngineeringPage />} />
             <Route path="/sustainability" element={<SustainabilityPage />} />
+            <Route path="/privacy-policy" element={<Privacy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
             {/* Fallback */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>

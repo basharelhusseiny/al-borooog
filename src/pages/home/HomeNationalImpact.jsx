@@ -64,7 +64,7 @@ const HomeNationalImpact = () => {
               <p className="text-slate-600 text-lg mb-10 leading-relaxed font-medium">
                 {isAr 
                   ? "شركة البروج ليست مجرد مورد للطاقة، بل هي محرك للنمو يغذي الطموحات السودانية بمليارات اللترات سنوياً، مما يضمن تدفق الحياة في كل ركن من أركان بلادنا."
-                  : "AL Burouj is more than an energy provider; we are an engine of growth fueling Sudanese ambitions with billions of liters annually, ensuring the flow of life in every corner of our nation."}
+                  : "AL Boroog is more than an energy provider; we are an engine of growth fueling Sudanese ambitions with billions of liters annually, ensuring the flow of life in every corner of our nation."}
               </p>
               
               <div className="space-y-8">

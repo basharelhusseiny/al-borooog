@@ -216,7 +216,7 @@ const HomeHeroSection = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-16 py-4 flex items-center justify-between">
           <div className="flex items-center gap-6">
             {[
-              { num: "850K+", label: isAr ? "طن/سنة" : "MT / Year" },
+              { num: "2.5M+", label: isAr ? "التوزيع" : "Distribution" },
               { num: "18", label: isAr ? "ولاية مغطاة" : "States Covered" },
               { num: "150+", label: isAr ? "شريك تجاري" : "B2B Partners" },
             ].map(({ num, label }, i) => (

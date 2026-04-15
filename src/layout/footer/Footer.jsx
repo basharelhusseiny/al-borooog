@@ -1,9 +1,11 @@
 import React from "react";
 import { MapPin, Building2, Phone, Mail, Globe, Flame } from "lucide-react";
 import { useTranslation } from "../../context/TranslationContext";
+import { useNavigate } from "react-router";
 
 const Footer = () => {
   const { t, isAr } = useTranslation();
+  const navigate = useNavigate();
   return (
     <footer className="bg-[#04031a] pt-24 pb-12 border-t-8 border-[#f5c04f]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -76,19 +78,26 @@ const Footer = () => {
 
           <div>
             <h4 className="text-[#f5c04f] font-extrabold mb-6 uppercase tracking-widest text-sm">
-              {t("footer.connect")}
+              {t("footer.legal")}
             </h4>
-            <div className="flex gap-4">
-              {["LinkedIn", "Twitter", "Facebook"].map((social) => (
-                <a
-                  key={social}
-                  href="#"
-                  className="w-12 h-12 bg-white/5 flex items-center justify-center text-white hover:bg-[#ea3326] transition-colors shadow-lg"
+            <ul className="space-y-4">
+              <li>
+                <button
+                  onClick={() => navigate("/privacy-policy")}
+                  className="text-slate-400 hover:text-white transition-colors text-sm font-medium uppercase tracking-widest"
                 >
-                  <Globe size={20} />
-                </a>
-              ))}
-            </div>
+                  {t("footer.privacy")}
+                </button>
+              </li>
+              <li>
+                <button
+                  onClick={() => navigate("/terms-of-service")}
+                  className="text-slate-400 hover:text-white transition-colors text-sm font-medium uppercase tracking-widest"
+                >
+                  {t("footer.terms")}
+                </button>
+              </li>
+            </ul>
           </div>
         </div>
 

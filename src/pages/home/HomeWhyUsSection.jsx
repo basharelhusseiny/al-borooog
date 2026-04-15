@@ -49,10 +49,10 @@ const PILLARS_AR = [
 
 const STATS = [
   {
-    value: 850000,
+    value: 2500000,
     suffix: "+",
-    label_en: "MT Imported Annually",
-    label_ar: "طن مستورد سنوياً",
+    label_en: "Distribution",
+    label_ar: "التوزيع",
   },
   {
     value: 18,
@@ -108,7 +108,7 @@ const HomeWhyUsSection = () => {
                     backgroundClip: "text",
                   }}
                 >
-                  {isAr ? "البروج؟" : "AL Burouj?"}
+                  {isAr ? "البروج؟" : "AL Boroog?"}
                 </span>
               </h2>
             </div>
