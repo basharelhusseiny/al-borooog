@@ -23,17 +23,6 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  useEffect(() => {
-    if (isOpen) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "unset";
-    }
-    return () => {
-      document.body.style.overflow = "unset";
-    };
-  }, [isOpen]);
-
   const navClasses = scrolled
     ? "bg-[#07062e] shadow-2xl py-4 transition-all duration-500"
     : "bg-transparent py-8 transition-all duration-500";
@@ -41,7 +30,7 @@ const Header = () => {
   const tabs = t("nav.tabs");
 
   return (
-    <nav className={`fixed top-0 inset-x-0 z-50 overflow-x-hidden ${navClasses}`}>
+    <nav className={`fixed top-0 z-50 w-full ${navClasses}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -88,9 +77,13 @@ const Header = () => {
             >
               <Globe size={18} /> {lang === "en" ? "العربية" : "EN"}
             </button>
-            <button className={`bg-[#f5c04f] text-[#07062e] px-8 py-3 font-extrabold transition-colors shadow-lg ${
-              isAr ? "text-base" : "text-sm uppercase tracking-wider hover:bg-white"
-            } hover:bg-white`}>
+            <button
+              className={`bg-[#f5c04f] text-nowrap text-[#07062e] px-8 py-3 font-extrabold transition-colors shadow-lg ${
+                isAr
+                  ? "text-base"
+                  : "text-sm uppercase tracking-wider hover:bg-white"
+              } hover:bg-white`}
+            >
               {t("nav.contact")}
             </button>
           </div>
@@ -114,7 +107,7 @@ const Header = () => {
       <div
         className={`lg:hidden overflow-hidden transition-all duration-300 bg-[#07062e] border-t border-white/10 ${isOpen ? "max-h-[500px]" : "max-h-0"}`}
       >
-        <div className="px-4 py-6 space-y-2">
+        <div className="px-4 py-6 space-y-2 text-nowrap">
           {NAV_LINKS.map(({ path, label_key }) => (
             <NavLink
               key={path}
